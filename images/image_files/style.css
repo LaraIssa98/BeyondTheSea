@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:300,400,500,700,800&subset=arabic');
+@import url('https://tjwlcdn.com/cms/assets/vendors/slick/slick.css');
+@import url('slick/slick-theme.css');
+@import url('search-style.css');
+
+.bh-l-p {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.93;
+    text-align: left;
+    color: #777777;
+    background: #fff;
+}
+
+.bh-l-p p{
+    margin: 0;
+}
+
+.bh-l-p a{
+    text-decoration: none !important;
+}
+
+.bh-l-p .section-title{
+    line-height: normal;
+    text-align: center;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+/********* Hero Banner Styles *******/
+.bh-hero {
+    color: #fff;
+    line-height: 0;
+    background: url("https://tjwlcdn.com/cms/landing_pages/2018/bahrain-lp/img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    padding-top: 130px;
+    position: relative;
+}
+
+.bh-hero p{
+    font-size: 21px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.bh-hero img.bh-logo{
+    width: 340px;
+    height: 140px;
+    margin: 0 auto;
+    min-height: auto;
+}
+
+.bh-hero .scroll-down{
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 20px);
+}
+
+.bh-hero .scroll-down img{
+    width: 40px;
+    height: 40px;
+}
+
+/********* Info Styles *******/
+.bh-info{
+    padding-top: 66px;
+    padding-bottom: 50px;
+}
+
+.bh-info .info-text .section-title,
+.bh-popular .title-text .section-title,
+.bh-restaurants .title-text .section-title,
+.bh-search .title-text .section-title,
+.bh-event .title-text .section-title{
+    margin-bottom: 10px;
+}
+
+.bh-info .info-text h4,
+.bh-popular .title-text h4,
+.bh-search .title-text h4,
+.bh-event .title-text h4{
+    color: #333333;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+/********* Hotels Styles *******/
+.bh-hotels{
+    padding-bottom: 50px;
+}
+
+.card-data {
+    position: relative;
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1), 0 0 0 1px rgba(0, 0, 0, .02);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1), 0 0 0 1px rgba(0, 0, 0, .02);
+    color: #fff;
+    /*height: 275px;*/
+    overflow: hidden;
+}
+
+.card-footer {
+    /*position: absolute;*/
+    /*bottom: 20px;*/
+    /*right: 20px;*/
+    background: linear-gradient(to bottom, rgba(56, 56, 56, 0), rgba(0, 0, 0, 0.5) 37%, #383838);
+    /*height: 120px;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: left;
+    /*padding: 20px;*/
+    padding-top: 30px;
+}
+
+.card-footer a.hotel-name{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+    padding-left: 20px;
+    line-height: 24px;
+}
+
+.card-footer a:nth-child(2){
+    padding-bottom: 10px;
+}
+
+.card-footer a:first-of-type{
+    height: 50px;
+}
+
+.card-btn {
+    border-radius: 2px;
+    background: linear-gradient(to bottom, #8b336d, #741752)!important;
+    border: none !important;
+    color: #fff !important;
+    text-decoration: none;
+    width: 100px;
+    margin: 0;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 0;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/********* Airlines Styles *******/
+.bh-airlines{
+    padding-bottom: 50px;
+}
+
+.bh-airlines .airlines-logo{
+    background: #f3f4f6;
+    padding: 15px 0;
+    display: block;
+    /*height: 93px;*/
+}
+
+.bh-airlines .airlines-logo img{
+    width: 225px;
+    height: 63px;
+    margin: 0 auto;
+}
+
+.bh-popular .title-text h4{
+    margin-bottom: 30px;
+}
+
+/*.bh-airlines .col-sm-4:first-of-type > a{*/
+    /*padding-top: 25px;*/
+/*}*/
+
+/*.bh-airlines .col-sm-4:first-of-type > a > img{*/
+    /*width: 184px;*/
+    /*height: 39.1px;*/
+/*}*/
+
+/********* Popular Styles *******/
+.bh-popular{
+    padding-bottom: 50px;
+}
+
+.popular-card{
+    background-color: #000;
+    height: 450px;
+    position: relative;
+}
+
+.p-card-1{
+    background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 1) 40% ,#000000 100%), url('https://tjwlcdn.com/cms/landing_pages/2018/bahrain-lp/img/popular-1.jpg') no-repeat;
+    background-size: contain;
+}
+
+.p-card-2{
+    background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 1) 40% ,#000000 100%), url('https://tjwlcdn.com/cms/landing_pages/2018/bahrain-lp/img/popular-2.jpg') no-repeat;
+    background-size: contain;
+}
+
+.p-card-3{
+    background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 1) 40% ,#000000 100%), url('https://tjwlcdn.com/cms/landing_pages/2018/bahrain-lp/img/popular-3.jpg') no-repeat;
+    background-size: contain;
+}
+
+.popular-card-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 15px 15px 30px 15px;
+}
+
+.popular-card-text h4{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+/********* Restaurants Styles *******/
+.bh-restaurants{
+    background: #f8fbff;
+    padding: 50px 0;
+}
+
+.bh-restaurants .title-text p{
+    margin-bottom: 30px;
+}
+
+.bh-restaurants .restaurants-card{
+    position: relative;
+    background: #f0f0f0;
+    padding-left:120px;
+    height: 280px;
+}
+
+.bh-restaurants .restaurants-card img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+}
+
+.bh-restaurants .restaurants-text{
+    padding: 20px 15px 20px 10px;
+}
+
+.bh-restaurants .restaurants-text h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+.bh-restaurants .restaurants-quote{
+    position: relative;
+    margin-top: 65px;
+}
+
+.bh-restaurants .restaurants-quote h1{
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+    font-size: 28px;
+}
+
+.bh-restaurants .restaurants-quote p{
+    font-weight: normal;
+    line-height: 1.33;
+    color: #000000;
+    font-size: 18px;
+    margin: 0;
+}
+
+.bh-restaurants .restaurants-quote img{
+    width: 35.8px;
+    height: 32.4px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bh-restaurants .restaurants-quote img:last-child{
+    width: 35.8px;
+    height: 32.4px;
+    position: absolute;
+    left: auto;
+    top: auto;
+    bottom: 0;
+    right: 0;
+}
+
+/********* Search Styles *******/
+.bh-search {
+    /*color: #fff;*/
+    background: url("https://tjwlcdn.com/cms/landing_pages/2018/bahrain-lp/img/bg-search.jpg")  no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    float: left !important;
+    width: 100% !important;
+    line-height: normal;
+}
+
+/********* Search Styles *******/
+.bh-l-p .search-box-wrapper{
+    background: rgba(0,0,0,0.4);
+}
+
+.bh-l-p .dual-search .trv-tab-list ul li{
+    height: 50px;
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.bh-l-p .dual-search .trv-tab-list ul li.active {
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    height: 50px;
+    line-height: 25px;
+}
+
+.bh-l-p .bh-search .title-text h4{
+    margin-bottom: 40px;
+}
+
+.bh-l-p .www-srchf{
+    background: transparent;
+}
+
+.bh-l-p .dual-search .trv-tab-box{
+    min-height: auto;
+}
+
+/********* Event Styles *******/
+.bh-event{
+    padding: 50px 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bh-event .title-text{
+    margin-bottom: 30px;
+}
+
+.bh-event .event-card h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    height: 40px;
+    margin: 20px 0;
+}
+
+/********* RTL Styles *******/
+.bh-l-p-rtl.bh-l-p{
+    text-align: right;
+}
+
+.bh-l-p-rtl .card-footer{
+    text-align: right;
+}
+
+.bh-l-p-rtl .card-footer a.hotel-name{
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.bh-l-p-rtl .card-btn{
+    left: 20px;
+    right: auto;
+}
+
+.bh-l-p-rtl .bh-restaurants .restaurants-card img{
+    right: 0;
+    left: auto;
+}
+
+.bh-l-p-rtl .bh-restaurants .restaurants-card{
+    padding-right: 120px;
+    padding-left: 0;
+}
+
+.bh-l-p-rtl .bh-event .event-card h2{
+    height: 30px;
+}
+
+/********* Media Queries  Styles *******/
+@media only screen and (min-width: 320px)and (max-width: 767px ) {
+    .bh-l-p{
+        background-color: #f4f6f8;
+        line-height: normal;
+    }
+    .bh-l-p .section-title{
+        font-size: 16px;
+        font-weight: bold;
+        color: #3a3a3a;
+        margin-bottom: 10px;
+    }
+    .bh-hero{
+        height: 165px;
+        padding-top: 47px;
+        min-height: auto;
+    }
+    .bh-hero img.bh-logo{
+        width: 169.5px;
+        height: 70px;
+    }
+    .bh-info{
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .bh-info .info-text{
+        background: #ffffff;
+        margin-top: -10px;
+        padding: 10px;
+        text-align: left !important;
+    }
+    .bh-l-p-rtl .bh-info .info-text{
+        text-align: right !important;
+    }
+    .bh-info .info-text .section-title{
+        font-size: 16px;
+        font-weight: bold;
+        color: #333333;
+        text-align: left;
+    }
+    .bh-l-p-rtl .bh-info .info-text .section-title{
+        text-align: right;
+    }
+    .bh-info .info-text p{
+        font-size: 12px;
+        line-height: 1.5;
+        color: #777777;
+    }
+    .card-data{
+        margin-bottom: 10px;
+    }
+    .bh-hotels,
+    .bh-airlines{
+        padding-bottom: 20px;
+    }
+    .card-footer a.hotel-name{
+        font-weight: normal;
+    }
+    .bh-airlines .airlines-logo {
+        background: #fff;
+        margin-bottom: 10px;
+    }
+    .bh-popular .title-text h4{
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .popular-card{
+        height: 355px;
+    }
+    .bh-restaurants{
+        padding-bottom: 60px;
+    }
+    .restaurants-quote-mob{
+        background: #fff;
+        margin-top: 50px;
+    }
+    .bh-restaurants .restaurants-quote {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .bh-restaurants .restaurants-quote h1 {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .bh-restaurants .restaurants-quote p{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .bh-restaurants .restaurants-quote .restaurants-text{
+        padding: 30px 0;
+    }
+    .bh-search{
+        background: #f4f6f8;
+        padding: 30px 0;
+        min-height: auto;
+    }
+    .bh-search .title-text h4{
+        font-size: 12px;
+    }
+    .bh-search .search-btns a{
+        background: #81275a;
+        display: inline-block;
+        color: #ffffff;
+        text-align: center;
+        width: 115px;
+        height: 80px;
+        padding: 10px;
+        border-radius: 2px;
+        margin: 0 10px;
+    }
+    .bh-search .search-btns a {
+        width: 130px;
+        padding: 10px 5px;
+        margin: 0 5px;
+        font-size: 12px;
+    }
+    .bh-search .search-btns a img{
+        margin-bottom: 20px;
+        height: 27px;
+    }
+    .bh-event{
+        background: #fff;
+        padding: 30px 0 60px 0;
+    }
+    /*Slider*/
+    .bh-l-p .slick-dots{
+        bottom: -50px;
+    }
+    .bh-l-p .slick-dots li button::before {
+        font-size: 0;
+        color: #d8d8d8;
+    }
+
+    .bh-l-p .slick-dots li.slick-active button::before{
+        opacity: 1;
+        color: #8b336d;
+    }
+
+    .bh-l-p .slick-dots li button{
+        background: #d8d8d8;
+        border: 0;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+    }
+
+    .bh-l-p .slick-dots li.slick-active button{
+        opacity: 1;
+        background: #8b336d;
+        border: 0;
+    }
+}
+
+/* Small */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .bh-restaurants .restaurants-card{
+        height: auto;
+        margin-bottom: 5px;
+        padding-left: 0;
+    }
+    .bh-l-p-rtl .bh-restaurants .restaurants-card{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .bh-restaurants .restaurants-card img {
+        position: relative;
+        width: 100%;
+        height: 360px;
+    }
+    .bh-restaurants .restaurants-text{
+        min-height: 310px;
+    }
+    .bh-restaurants .restaurants-quote .restaurants-text{
+        min-height: auto;
+    }
+    .card-btn{
+        position: initial;
+        float: right;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .bh-l-p-rtl .card-btn{
+        float: left;
+        margin-right: 0;
+        margin-left: 15px;
+    }
+    .card-footer a.hotel-name{
+        line-height: 1;
+    }
+    .card-footer a:first-of-type {
+        height: 40px;
+    }
+    .popular-card{
+        height: 430px;
+    }
+    .popular-card-text{
+        top: 95px;
+    }
+    .bh-event .event-card h2,
+    .bh-l-p-rtl .bh-event .event-card h2{
+        height: 25px;
+    }
+    .trv-tab-list ul {
+        margin-bottom: 0;
+    }
+    .p-card-1 {
+        background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 1) 30% ,#000000 100%), url(https://tjwlcdn.com/cms/landing_pages/2018/bahrain-lp/img/popular-1.jpg) no-repeat;
+        background-size: contain;
+    }
+    .p-card-2 {
+        background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 1) 30% ,#000000 100%), url(https://tjwlcdn.com/cms/landing_pages/2018/bahrain-lp/img/popular-2.jpg) no-repeat;
+        background-size: contain;
+    }
+    .p-card-3 {
+        background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 1) 30% ,#000000 100%), url(https://tjwlcdn.com/cms/landing_pages/2018/bahrain-lp/img/popular-3.jpg) no-repeat;
+        background-size: contain;
+    }
+}
+.bh-airlines
+{
+    text-align:center;
+    margin:0 auto;
+}
+.bh-airlines-info
+{
+    display:inline-block;
+   vertical-align: middle;
+   float: none;
+}
+/* Medium */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .bh-restaurants .restaurants-card{
+        height: auto;
+        margin-bottom: 5px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .bh-l-p-rtl .bh-restaurants .restaurants-card{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .bh-restaurants .restaurants-card img {
+        position: relative;
+        width: 100%;
+        height: 360px;
+        height: auto;
+    }
+    .bh-restaurants .restaurants-text{
+        min-height: 225px;
+    }
+    .bh-restaurants .restaurants-quote .restaurants-text{
+        min-height: auto;
+    }
+}

@@ -1,0 +1,16 @@
+$(document).ready(function(){setTimeout(function(){if(window.location.href.indexOf("offers") > -1){var $link=$('#nav-offers-cta');$link.parent('li').addClass('active');window.scrollTo(0,0);}},500);});
+
+
+if($('.originDestinationPage.alm-country-page').length>0) {
+if(!$('.originDestinationPage.alm-country-page .gray-bg .country-city-listing').children().length>0){
+$('.originDestinationPage.alm-country-page .gray-bg .country-city-listing').parent('.col-md-12').hide();
+}
+}
+
+$( document ).ready(function() {
+$('.alm-city-page .search-flights-btn').on('click',function () {
+                    $('html,body').animate({
+                        scrollTop: $(".bookingForm").offset().top
+    });
+});
+});
